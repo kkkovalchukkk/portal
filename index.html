@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информационный портал</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="wrapper">
+                <a href="./index.html" class="logo-link">
+                    <img src="./assets/img/logo.png" alt="Logo" class="logo">
+                    <h1 class="logo-body">
+                        Информационный<br>портал
+                    </h1>
+                </a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-list-item nav-list-item--dropdown">
+                            <div class="nav-list-item-header">
+                                Новости
+                            </div>
+                            <div class="nav-list-item-body">
+                                <a href="#" class="nav-link">
+                                    Популярное
+                                </a>
+                                <a href="#new" class="nav-link">
+                                    Новые
+                                </a>
+                                <a href="#space" class="nav-link">
+                                    Космос
+                                </a>
+                                <a href="#natural" class="nav-link">
+                                    Природа
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="#my" class="nav-link">
+                                Мои статьи
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#req" class="header-btn">
+                    Добавить новость
+                </a>
+            </div>
+        </header>
+        <main class="main" id="top">
+            <section class="popular" id="popular">
+                <div class="wrapper">
+                    <h2 class="subheading">
+                        Популярные Новости 🔥
+                    </h2>
+                    <div class="popular-grid">
+                        <div class="news-card">
+                            <h3 class="news-card-heading">
+                                "Дикие медведи вышли из леса к людям"
+                            </h3>
+                            <p class="news-card-date">
+                                22.12.2023
+                            </p>
+                            <div class="news-card-tags">
+                                <a href="#" class="news-card-tag">Природа</a>
+                                <a href="#" class="news-card-tag">Шок</a>
+                                <a href="#" class="news-card-tag">Общество</a>
+                                <a href="#" class="news-card-tag">Проблема человечетсва</a>
+                            </div>
+                            <p class="news-card-text">
+                                Эти бурые правители леса из-за голода вышли к людям в поисках пропитания. Угроза или
+                                просьба
+                                о помощи?
+                            </p>
+                            <a href="#" class="news-card-btn">
+                                Читать подробнее
+                            </a>
+
+                            <img src="./assets/img/news-1.jpeg" alt="Новость 1" class="news-card-img">
+                        </div>
+                        <div class="news-card">
+                            <h3 class="news-card-heading">
+                                "Первый человек на Марсе: Космическая Экспедиция отправляется в 2025 году"
+                            </h3>
+                            <div class="news-card-tags">
+                                <a href="#" class="news-card-tag">Космос</a>
+                                <a href="#" class="news-card-tag">Марс</a>
+                                <a href="#" class="news-card-tag">Экспедиция</a>
+                                <a href="#" class="news-card-tag">Астронавты человечетсва</a>
+                            </div>
+                            <p class="news-card-text">
+                                Команда астронавтов готовится к исторической миссии.
+                            </p>
+                            <a href="#" class="news-card-btn">
+                                Читать подробнее
+                            </a>
+
+                            <img src="./assets/img/news-2.jpeg" alt="Новость 2" class="news-card-img">
+                        </div>
+                        <div class="news-card">
+                            <h3 class="news-card-heading">
+                                "Сенсационное открытие: Новая Земля-подобная планета в обитаемой зоне"
+                            </h3>
+
+                            <div class="news-card-tags">
+                                <a href="#" class="news-card-tag">Космос</a>
+                                <a href="#" class="news-card-tag">Экзопланета</a>
+                                <a href="#" class="news-card-tag">Астрономия</a>
+                                <a href="#" class="news-card-tag">Жизнь в космосе</a>
+                            </div>
+                            <p class="news-card-text">
+                                Астрономы обнаружили потенциально пригодную для жизни планету.
+                            </p>
+                            <a href="#" class="news-card-btn">
+                                Читать подробнее
+                            </a>
+
+                            <img src="./assets/img/news-3.jpeg" alt="Новость 3" class="news-card-img">
+                        </div>
+                        <div class="news-card">
+                            <h3 class="news-card-heading">
+                                "Уникальное явление природы: Запуск крупнейшего национального парка под водой"
+                            </h3>
+                            <div class="news-card-tags">
+                                <a href="#" class="news-card-tag">Природа</a>
+                                <a href="#" class="news-card-tag">Океан</a>
+                                <a href="#" class="news-card-tag">Экология</a>
+                                <a href="#" class="news-card-tag">Национальный парк</a>
+                            </div>
+                            <p class="news-card-text">
+                                Сохранение морской биоразнообразности.
+                            </p>
+                            <a href="#" class="news-card-btn">
+                                Читать подробнее
+                            </a>
+
+                            <img src="./assets/img/news-4.jpeg" alt="Новость 4" class="news-card-img">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="new" id="new">
+                <div class="wrapper">
+                    <h2 class="subheading">
+                        Новые Новости 🆕
+                    </h2>
+                    <div class="new-layout">
+                        <div class="news-card">
+                            <h3 class="news-card-heading">
+                                "Дикие медведи вышли из леса к людям"
+                            </h3>
+                            <div class="news-card-tags">
+                                <a href="#" class="news-card-tag">Природа</a>
+                                <a href="#" class="news-card-tag">Шок</a>
+                                <a href="#" class="news-card-tag">Общество</a>
+                                <a href="#" class="news-card-tag">Проблема человечетсва</a>
+                            </div>
+                            <p class="news-card-text">
+                                Эти бурые правители леса из-за голода вышли к людям в поисках пропитания. Угроза или
+                                просьба
+                                о помощи?
+                            </p>
+                            <a href="#" class="news-card-btn">
+                                Читать подробнее
+                            </a>
+
+                            <img src="./assets/img/news-1.jpeg" alt="Новость 1" class="news-card-img">
+                        </div>
+                        <div class="news-card">
+                            <h3 class="news-card-heading">
+                                "Дикие медведи вышли из леса к людям"
+                            </h3>
+                            <div class="news-card-tags">
+                                <a href="#" class="news-card-tag">Природа</a>
+                                <a href="#" class="news-card-tag">Шок</a>
+                                <a href="#" class="news-card-tag">Общество</a>
+                                <a href="#" class="news-card-tag">Проблема человечетсва</a>
+                            </div>
+                            <p class="news-card-text">
+                                Эти бурые правители леса из-за голода вышли к людям в поисках пропитания. Угроза или
+                                просьба
+                                о помощи?
+                            </p>
+                            <a href="#" class="news-card-btn">
+                                Читать подробнее
+                            </a>
+
+                            <img src="./assets/img/news-1.jpeg" alt="Новость 1" class="news-card-img">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="new" id="space">
+                <div class="wrapper">
+                    <div class="new-layout">
+                        <div class="news-card">
+                            <h3 class="news-card-heading">
+                                "Первый человек на Марсе: Космическая Экспедиция отправляется в 2025 году"
+                            </h3>
+                            <div class="news-card-tags">
+                                <a href="#" class="news-card-tag">Космос</a>
+                                <a href="#" class="news-card-tag">Марс</a>
+                                <a href="#" class="news-card-tag">Экспедиция</a>
+                                <a href="#" class="news-card-tag">Астронавты человечетсва</a>
+                            </div>
+                            <p class="news-card-text">
+                                Команда астронавтов готовится к исторической миссии.
+                            </p>
+                            <a href="#" class="news-card-btn">
+                                Читать подробнее
+                            </a>
+
+                            <img src="./assets/img/news-2.jpeg" alt="Новость 2" class="news-card-img">
+                        </div>
+                        <div class="news-card">
+                            <h3 class="news-card-heading">
+                                "Первый человек на Марсе: Космическая Экспедиция отправляется в 2025 году"
+                            </h3>
+                            <div class="news-card-tags">
+                                <a href="#" class="news-card-tag">Космос</a>
+                                <a href="#" class="news-card-tag">Марс</a>
+                                <a href="#" class="news-card-tag">Экспедиция</a>
+                                <a href="#" class="news-card-tag">Астронавты человечетсва</a>
+                            </div>
+                            <p class="news-card-text">
+                                Команда астронавтов готовится к исторической миссии.
+                            </p>
+                            <a href="#" class="news-card-btn">
+                                Читать подробнее
+                            </a>
+
+                            <img src="./assets/img/news-2.jpeg" alt="Новость 2" class="news-card-img">
+                        </div>
+
+                    </div>
+                    <h2 class="subheading">
+                        Космос
+                    </h2>
+                </div>
+            </section>
+            <section class="new" id="natural">
+                <div class="wrapper">
+                    <h2 class="subheading">
+                        Природа
+                    </h2>
+                    <div class="new-layout">
+                        <div class="news-card">
+                            <h3 class="news-card-heading">
+                                "Первый человек на Марсе: Космическая Экспедиция отправляется в 2025 году"
+                            </h3>
+                            <div class="news-card-tags">
+                                <a href="#" class="news-card-tag">Космос</a>
+                                <a href="#" class="news-card-tag">Марс</a>
+                                <a href="#" class="news-card-tag">Экспедиция</a>
+                                <a href="#" class="news-card-tag">Астронавты человечетсва</a>
+                            </div>
+                            <p class="news-card-text">
+                                Команда астронавтов готовится к исторической миссии.
+                            </p>
+                            <a href="#" class="news-card-btn">
+                                Читать подробнее
+                            </a>
+
+                            <img src="./assets/img/news-2.jpeg" alt="Новость 2" class="news-card-img">
+                        </div>
+                        <div class="news-card">
+                            <h3 class="news-card-heading">
+                                "Первый человек на Марсе: Космическая Экспедиция отправляется в 2025 году"
+                            </h3>
+                            <div class="news-card-tags">
+                                <a href="#" class="news-card-tag">Космос</a>
+                                <a href="#" class="news-card-tag">Марс</a>
+                                <a href="#" class="news-card-tag">Экспедиция</a>
+                                <a href="#" class="news-card-tag">Астронавты человечетсва</a>
+                            </div>
+                            <p class="news-card-text">
+                                Команда астронавтов готовится к исторической миссии.
+                            </p>
+                            <a href="#" class="news-card-btn">
+                                Читать подробнее
+                            </a>
+
+                            <img src="./assets/img/news-2.jpeg" alt="Новость 2" class="news-card-img">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="my" id="my">
+                <div class="wrapper">
+                    <h2 class="subheading">
+                        Мои статьи
+                    </h2>
+                    <p class="my-empty-text">
+                        Здесь пока ничего нет 🤷‍♀️
+                    </p>
+
+                    <div class="my-list">
+
+                    </div>
+
+                </div>
+            </section>
+            <section class="req" id="req">
+                <div class="wrapper">
+                    <h2 class="subheading">
+                        Хотите добавить новость? 🧐
+                    </h2>
+                    <form method="post" class="form">
+                        <div class="form-body">
+                            <label>
+                                Заголовок новости
+                                <input name="heading" required type="text" placeholder="Заголовок новости"
+                                    class="form-input">
+                            </label>
+                            <label>
+                                Ссылка на изображение
+                                <input name="url" required type="text" placeholder="Ссылка на изображение"
+                                    class="form-input">
+                            </label>
+                            <label>
+                                Ключевые слова (через пробел)
+                                <input name="tags" required type="text" placeholder="теги" class="form-input">
+                            </label>
+                            <label>
+                                Краткое описание
+                                <textarea name="descr" required placeholder="Краткое описание"
+                                    class="form-textarea"></textarea>
+                            </label>
+                            <label>
+                                Текст новости
+                                <textarea name="text" required placeholder="Текст новости"
+                                    class="form-textarea"></textarea>
+                            </label>
+                        </div>
+                        <button class="form-btn">Добавить</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="wrapper">
+                <a href="#" class="logo-link">
+                    <img src="./assets/img/logo.png" alt="Logo" class="logo">
+                    <p class="logo-body">
+                        Информационный<br>портал
+                    </p>
+                </a>
+                <nav class="footer-nav">
+                    <a href="#" class="footer-nav-link">
+                        Популярные
+                    </a>
+                    <a href="#new" class="footer-nav-link">
+                        Новые
+                    </a>
+                    <a href="#space" class="footer-nav-link">
+                        Космос
+                    </a>
+                    <a href="#natural" class="footer-nav-link">
+                        Природа
+                    </a>
+                    <a href="#my" class="footer-nav-link">
+                        Мои статьи
+                    </a>
+                    <a href="#req" class="footer-nav-link">
+                        Добавить статью
+                    </a>
+                </nav>
+            </div>
+        </footer>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
